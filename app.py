@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 import json
 import random
@@ -11,7 +12,7 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'wojiushishijianguanlidashi'  # 设置session加密的密钥
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(hours=2)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:root@localhost:3306/webhw'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://frezcirno:tanzixuan@localhost:3306/webhw'
 
 db = SQLAlchemy(app)
 
